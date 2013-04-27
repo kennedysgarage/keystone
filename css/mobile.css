@@ -1,0 +1,72 @@
+/* ========================================================= Mobile ===*/
+html,body{
+  margin: 0;
+  padding: 0;
+}
+/* ========================================================= Install to Home Screen ===*/
+#install {
+  background: #f7f7f7 url(../img/install.png) 50% 70% no-repeat;
+  background-size: auto 50%;
+  color: #444;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+  text-shadow: 1px 1px 0 #FFF;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: opacity 0.1s linear;
+  -moz-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+#install .top {
+  margin-top: 25px;
+}
+#install h1 {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+#install h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding: 0 25px;
+}
+#install .chrome_instructions {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 17px;
+  line-height: 1.3em;
+  text-align: center;
+}
+body.mobile_chrome #install .chrome_instructions {
+  display: block;
+}
+#install .instructions {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  font-size: 17px;
+  line-height: 1.3em;
+  text-align: center;
+}
+body.mobile_chrome #install .instructions {
+  display: none;
+}
+#install .instructions .pictos {
+  display: block;
+  width: 100%;
+}
+body.landscape #install {
+  background: #E9E9E9;
+}
+body.landscape #install .instructions .pictos {
+  position: relative;
+  left: -38px;
+}
