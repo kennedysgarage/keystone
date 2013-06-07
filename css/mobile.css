@@ -151,9 +151,9 @@ nav a:hover{
     border: 1px solid white;
     border-radius: 3px 0 0 3px;
     box-shadow: none;
-    height: 12px;
+    height: 14px;
     left: 0;
-    line-height: 12px;
+    line-height: 14px;
     margin: 0;
     padding: 8px 0 8px 8px;
     position: relative;
@@ -171,7 +171,7 @@ nav a:hover{
     padding: 8px 0 7px;
     position: absolute;
     top: -1px; right: -35px;
-    width: 34px; height: 32px;
+    width: 34px; height: 34px;
     z-index: 10;
 }
 input::-webkit-input-placeholder{
