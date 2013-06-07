@@ -84,8 +84,8 @@ nav{
   height: 100%;
   display: block;
   position: fixed;
-  overflow-y: scroll;
-  width: 270px;
+  overflow-y: auto;
+  width: 255px;
   left: 0px;
   top: 0px;
   z-index: 0;
