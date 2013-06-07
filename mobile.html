@@ -15,11 +15,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="format-detection" content="telephone=no">
-  <meta name="apple-mobile-web-app-title" content="Keystone" />
+  <meta name="apple-mobile-web-app-title" content="Keystone"/>
 
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/ss-social.css">
+  <link rel="stylesheet" href="css/ss-standard.css">
   <link rel="stylesheet" href="css/mobile.css">
 
   <!-- Webpage Icon for Web Clip -->
@@ -42,15 +44,55 @@
 </head>
 <body>
 
-   <div class="container">
-    <h1>Web App</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a href="index.html">Desktop Site</a>
-  </div><!--/container-->
+<div id="mobile">
+  <div id="page">
+
+    <header>
+        <div id="menu-button"><a href="" id="menu-btn"><i class="ss-icon">&#xE9A1;</i></a></div>
+        <h1><a href="mobile.html">KeyStone</a></h1>
+    </header>
+
+    <div id="main">
+        <div class="container">
+                <h1>Web App</h1>
+                <a href="index.html">Desktop Site</a>
+                <p>Lorem psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div><!--/container-->
+    </div><!--/main-->
+
+
+</div><!--/page-->
+
+    <nav>
+        <ul>
+            <li>
+              <form role="search" method="get" action="" id="search-form">
+                  <div class="search-wrap">
+                      <div class="search-input">
+                          <input type="search" onwebkitspeechchange="startSearch()" x-webkit-grammar="builtin:search" x-webkit-speech="" placeholder="search..." value="" name="s" id="s">
+                          <input type="submit" value="&#x1F50E;" id="search-submit" class="ss-icon">
+                      </div><!--/search-input-->
+                  </div><!--/search-wrap-->
+              </form>
+            </li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><strong>Title</strong></a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><strong>Title</strong></a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+        </ul>
+    </nav>
+
+</div><!--/mobile-->
+
 
 
   <!-- Loading screen -->
-  <div id="loading" class="revealed">
+  <div id="loading" class="revealed" style="display:none">
     <span class="pictos">.</span>
   </div>
 
@@ -70,7 +112,10 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
-<script src="js/bootstrap.js"></script>
+<script src="js/ss-social.js"></script>
+<script src="js/ss-standard.js"></script>
+<!-- <script src="js/bootstrap.js"></script> -->
+<script src="js/helper.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
