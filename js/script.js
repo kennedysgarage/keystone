@@ -33,12 +33,12 @@
 //
 // 1. Check to see if browser is iOS mobile webkit
 // 2. If Yes then show redirect to mobile.html
-// 3. Check to see if user is has doenloaded the webapp
+// 3. Check to see if user is has downloaded the webapp
 // 4. if not show them the installer screen
 //
 
 
-// This little bit is detacting if it is on index then checking to see if it is iphone, if so show mobile.
+// This little bit is detracting if it is on index then checking to see if it is iphone, if so show mobile.
 // We are missing the part about the installer screen.
 if(document.URL.indexOf("index.html") >= 0){
   var isMobile = {
