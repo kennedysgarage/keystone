@@ -1,6 +1,6 @@
 ## Geoluhread
 
-Geoluhread is starting place in the construction of web apps.
+Geoluhread (yellow-red) is starting place in the construction of web apps.
 
 ## Features
  * Launch Image
