@@ -1,6 +1,6 @@
-## Geoluhread
+## Keystone
 
-Geoluhread (yellow-red) is starting place in the construction of web apps.
+Keystone is starting place in the construction of web apps.
 
 ## Features
  * Launch Image
