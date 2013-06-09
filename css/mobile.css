@@ -10,7 +10,7 @@ html,body{
   height: 100%;
 }
 #page{
-  background-color: #f7f7f7;
+  background-color: #ecf0f1;
   margin: 0;
   box-shadow: -1px 0 3px rgba(0,0,0,0.5);
   position: relative;
@@ -32,21 +32,28 @@ header{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#100e0e',GradientType=0 );
   border-bottom: 1px solid #000;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  height: 44px;
   margin: 0 0 15px;
   padding: 0 10px;
 }
 header h1{
   display: block;
-  font-size: 25px;
+  font-family: 'bemio';
+  font-size: 27px;
   font-weight: 300;
+  line-height: 1;
   margin: 0;
-  padding: 2px 0 4px;
+  padding: 10px 0 0;
   text-align: center;
+  text-transform: uppercase;
   text-shadow: 0 1px 1px rgba(0,0,0,0.7);
 }
-header h1 a, header h1 a:hover{
-  color: #fff;
+header h1 a, header h1 a:hover, header h1 a:active{
+  color: #ecf0f1;
   text-decoration: none;
+}
+header h1 img{
+  vertical-align: top;
 }
 header #menu-button{
   position: relative;
@@ -123,6 +130,10 @@ nav a:hover{
   color: #fff;
   text-decoration: none;
 }
+nav img{
+  border-radius: 2px;
+  vertical-align: top;
+}
 /* ---------
 -- Search --
 --------- */
@@ -179,7 +190,10 @@ input:-moz-placeholder{
     font-style: italic;
 }
 /* ========================================================= MAIN ===*/
-
+.intro{
+  margin:5px;
+  text-align: center;
+}
 
 /* ========================================================= Install to Home Screen ===*/
 #install {
