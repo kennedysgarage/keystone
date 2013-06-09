@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'bemio';
+    src: url('/fonts/bemio/bemio-webfont.eot');
+    src: url('/fonts/bemio/bemio-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/bemio/bemio-webfont.woff') format('woff'),
+         url('/fonts/bemio/bemio-webfont.ttf') format('truetype'),
+         url('/fonts/bemio/bemio-webfont.svg#bemioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ========================================================= Mobile ===*/
 html,body{
   height: 100%;
@@ -39,7 +49,7 @@ header{
 header h1{
   display: block;
   font-family: 'bemio';
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 1;
   margin: 0;
