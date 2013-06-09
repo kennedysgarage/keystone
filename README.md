@@ -1,4 +1,5 @@
-## Keystone
+Keystone
+========
 
 Keystone is starting place in the construction of web apps.
 
@@ -11,3 +12,4 @@ Keystone is starting place in the construction of web apps.
 
 ## TODO
  * Look more into [MBP](https://github.com/h5bp/mobile-boilerplate/wiki) help.js and see if we should add it or if it conflicts with the little I have.
+ * Think about adding [hook.js](https://github.com/jordansinger/Hook.js)
