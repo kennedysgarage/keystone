@@ -51,7 +51,10 @@ if(document.URL.indexOf("index.html") >= 0){
 
 }());
 
-
+// Prevent Mobile Safari bounce
+document.ontouchmove = function(event){
+    event.preventDefault();
+}
 
 //
 // Side Menu
