@@ -1,8 +1,6 @@
-<a href="http://keystone.kennedysgarage.com">
-  <img src="https://raw.github.com/kennedysgarage/keystone/master/img/d/logo.png" width="100px">
-</a>
-
-# [Keystone](http://keystone.kennedysgarage.com)
+<p align="center" >
+  <a href="http://keystone.kennedysgarage.com"><img src="https://i.imgur.com/z9kMg2G.png"></a>
+</p>
 Keystone is starting place in the construction of web apps. We are still figuring out which direction to take this project, but we plan on it being used as a starting point and a point of reference. You might use this if you have the need of a separate site, yet same url,  for desktop and mobile all depending which device the user is viewing it from.
 
 
